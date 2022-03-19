@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">Activities</string>
-    <string name="toastClick">Click</string>
-    <string name="btnNext">Siguiente</string>
+
+    <string name="nextScreen2">Continuar a Screen 2</string>
+    <string name="nextScreen3">Continuar a Screen 3</string>
+    <string name="nextScreen4">Continuar a Screen4</string>
+    <string name="finish">Finalizar</string>
+    <string name="clickToast">Click Toast</string>
+    <string name="clearTop">Clear Top</string>
+
+
 </resources>
