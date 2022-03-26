@@ -11,10 +11,13 @@ class Screen4 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_screen4)
 
         binding = ActivityScreen4Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        intent.extras?.let { bundle ->
+            binding.AgeGrogu.text = "Tu edad en años Grogu es " + bundle.getInt("age").toString()
+        }
 
         binding.btnFinish.setOnClickListener {
             finish()

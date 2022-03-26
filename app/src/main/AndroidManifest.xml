@@ -27,7 +27,8 @@
             android:exported="false" />
         <activity
             android:name=".Screen3"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".Screen2"
             android:exported="true">

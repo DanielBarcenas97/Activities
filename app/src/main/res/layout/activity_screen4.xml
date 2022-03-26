@@ -31,4 +31,21 @@
 
     </Button>
 
+    <TextView
+        android:id="@+id/AgeGrogu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFinish"
+        tools:text="tu edad es :" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
