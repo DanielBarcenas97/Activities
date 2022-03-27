@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val toast = findViewById<Button>(R.id.btnToast)
         button.text = getString(R.string.nextScreen2)
 
+        
         button.setOnClickListener(this)
         toast.setOnClickListener(this)
     }
