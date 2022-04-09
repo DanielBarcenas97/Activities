@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.bumptech.glide.Glide
 import com.dan.activities.databinding.ActivityScreen3Binding
 
 class Screen3 : AppCompatActivity() {
@@ -15,6 +16,13 @@ class Screen3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityScreen3Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        Glide
+            .with(this)
+            .load("https://upload.wikimedia.org/wikipedia/en/a/a0/Grogu_%28Star_Wars%29.jpg")
+            .centerCrop()
+            .placeholder(R.drawable.grogu3)
+            .into(binding.imageView)
     }
 
     fun clickFeo(view: View) {
