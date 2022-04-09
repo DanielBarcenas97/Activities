@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Activities</string>
+    <string name="app_name">Activity</string>
 
     <string name="nextScreen2">Continuar a Screen 2</string>
     <string name="nextScreen3">Continuar a Screen 3</string>

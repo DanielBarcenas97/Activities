@@ -6,12 +6,17 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        installSplashScreen().apply {
+
+        }
 
         val button = findViewById<Button>(R.id.btnNext)
         val toast = findViewById<Button>(R.id.btnToast)
